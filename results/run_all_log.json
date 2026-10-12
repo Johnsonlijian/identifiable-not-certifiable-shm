@@ -1,0 +1,134 @@
+[
+ {
+  "step": "test_qcert.py",
+  "returncode": 0,
+  "seconds": 4.7,
+  "stderr_tail": ""
+ },
+ {
+  "step": "kw51_gate.py",
+  "returncode": 0,
+  "seconds": 41.3,
+  "stderr_tail": ""
+ },
+ {
+  "step": "kw51_coverage.py",
+  "returncode": 0,
+  "seconds": 9.9,
+  "stderr_tail": ""
+ },
+ {
+  "step": "kw51_prepost.py",
+  "returncode": 0,
+  "seconds": 6.7,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fe_study.py",
+  "returncode": 0,
+  "seconds": 39.5,
+  "stderr_tail": ""
+ },
+ {
+  "step": "hbta_modal.py",
+  "returncode": 0,
+  "seconds": 160.8,
+  "stderr_tail": ""
+ },
+ {
+  "step": "hbta_gate.py id",
+  "returncode": 0,
+  "seconds": 72.5,
+  "stderr_tail": ""
+ },
+ {
+  "step": "hbta_gate.py session",
+  "returncode": 0,
+  "seconds": 72.6,
+  "stderr_tail": ""
+ },
+ {
+  "step": "osp_compare.py",
+  "returncode": 0,
+  "seconds": 5.9,
+  "stderr_tail": ""
+ },
+ {
+  "step": "derive_tables.py",
+  "returncode": 0,
+  "seconds": 2.6,
+  "stderr_tail": ""
+ },
+ {
+  "step": "make_si_tables.py",
+  "returncode": 0,
+  "seconds": 2.3,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig01_framework.py",
+  "returncode": 0,
+  "seconds": 7.2,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig02_kw51_data.py",
+  "returncode": 0,
+  "seconds": 6.3,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig03_hbta_data.py",
+  "returncode": 0,
+  "seconds": 5.9,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig04_fe.py",
+  "returncode": 0,
+  "seconds": 6.0,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig05_kw51_hierarchy.py",
+  "returncode": 0,
+  "seconds": 5.7,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig06_kw51_phase.py",
+  "returncode": 0,
+  "seconds": 6.0,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig07_kw51_validity.py",
+  "returncode": 0,
+  "seconds": 4.7,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig08_hbta_cert.py",
+  "returncode": 0,
+  "seconds": 5.5,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig09_hbta_loeo.py",
+  "returncode": 0,
+  "seconds": 5.0,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig10_osp.py",
+  "returncode": 0,
+  "seconds": 5.0,
+  "stderr_tail": ""
+ },
+ {
+  "step": "fig_graphical_abstract.py",
+  "returncode": 0,
+  "seconds": 4.4,
+  "stderr_tail": ""
+ }
+]

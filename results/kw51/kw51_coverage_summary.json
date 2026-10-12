@@ -1,0 +1,163 @@
+{
+  "snr": 50.0,
+  "n_draw_per_day": 2000,
+  "n_test_days": 35,
+  "by_rule": {
+    "naive": {
+      "n": 56,
+      "mean_cov_uniform": 0.28803469387755104,
+      "min_cov_uniform": 0.0007428571428571429,
+      "mean_cov_worst": 0.006833163265306122,
+      "min_cov_worst": 0.0,
+      "n_below_0.95_worst": 56,
+      "n_below_0.95_uniform": 56,
+      "median_halfwidth_rel": 0.05429680473999734
+    },
+    "blind": {
+      "n": 56,
+      "mean_cov_uniform": 0.9939252551020409,
+      "min_cov_uniform": 0.7676571428571428,
+      "mean_cov_worst": 0.7781885204081632,
+      "min_cov_worst": 0.10117142857142856,
+      "n_below_0.95_worst": 20,
+      "n_below_0.95_uniform": 1,
+      "median_halfwidth_rel": 1.0
+    },
+    "certified": {
+      "n": 56,
+      "mean_cov_uniform": 1.0,
+      "min_cov_uniform": 1.0,
+      "mean_cov_worst": 1.0,
+      "min_cov_worst": 1.0,
+      "n_below_0.95_worst": 0,
+      "n_below_0.95_uniform": 0,
+      "median_halfwidth_rel": 1.0
+    }
+  },
+  "by_rule_layout": {
+    "naive_0": {
+      "n": 14,
+      "mean_cov_uniform": 0.10035510204081634,
+      "min_cov_uniform": 0.0007428571428571429,
+      "mean_cov_worst": 0.0,
+      "min_cov_worst": 0.0,
+      "n_below_0.95_worst": 14,
+      "n_below_0.95_uniform": 14,
+      "median_halfwidth_rel": 0.03233626057361084
+    },
+    "naive_63": {
+      "n": 14,
+      "mean_cov_uniform": 0.6124765306122448,
+      "min_cov_uniform": 0.10157142857142858,
+      "mean_cov_worst": 0.02722448979591837,
+      "min_cov_worst": 0.0,
+      "n_below_0.95_worst": 14,
+      "n_below_0.95_uniform": 14,
+      "median_halfwidth_rel": 0.23135421078421553
+    },
+    "blind_0": {
+      "n": 14,
+      "mean_cov_uniform": 1.0,
+      "min_cov_uniform": 1.0,
+      "mean_cov_worst": 0.905319387755102,
+      "min_cov_worst": 0.3346857142857143,
+      "n_below_0.95_worst": 3,
+      "n_below_0.95_uniform": 0,
+      "median_halfwidth_rel": 1.0
+    },
+    "blind_63": {
+      "n": 14,
+      "mean_cov_uniform": 0.9763285714285714,
+      "min_cov_uniform": 0.7676571428571428,
+      "mean_cov_worst": 0.5597142857142856,
+      "min_cov_worst": 0.10117142857142856,
+      "n_below_0.95_worst": 9,
+      "n_below_0.95_uniform": 1,
+      "median_halfwidth_rel": 0.7177643402420715
+    },
+    "certified_0": {
+      "n": 14,
+      "mean_cov_uniform": 1.0,
+      "min_cov_uniform": 1.0,
+      "mean_cov_worst": 1.0,
+      "min_cov_worst": 1.0,
+      "n_below_0.95_worst": 0,
+      "n_below_0.95_uniform": 0,
+      "median_halfwidth_rel": 1.0
+    },
+    "certified_63": {
+      "n": 14,
+      "mean_cov_uniform": 1.0,
+      "min_cov_uniform": 1.0,
+      "mean_cov_worst": 1.0,
+      "min_cov_worst": 1.0,
+      "n_below_0.95_worst": 0,
+      "n_below_0.95_uniform": 0,
+      "median_halfwidth_rel": 1.0
+    }
+  },
+  "informative_rows": {
+    "naive": {
+      "n": 56,
+      "mean_cov_uniform": 0.28803469387755104,
+      "min_cov_uniform": 0.0007428571428571429,
+      "mean_cov_worst": 0.006833163265306122,
+      "min_cov_worst": 0.0,
+      "n_below_0.95_worst": 56,
+      "n_below_0.95_uniform": 56,
+      "median_halfwidth_rel": 0.05429680473999734
+    },
+    "blind": {
+      "n": 20,
+      "mean_cov_uniform": 0.9829907142857144,
+      "min_cov_uniform": 0.7676571428571428,
+      "mean_cov_worst": 0.37892785714285715,
+      "min_cov_worst": 0.10117142857142856,
+      "n_below_0.95_worst": 20,
+      "n_below_0.95_uniform": 1,
+      "median_halfwidth_rel": 0.6770098234288087
+    },
+    "certified": {
+      "n": 4,
+      "mean_cov_uniform": 1.0,
+      "min_cov_uniform": 1.0,
+      "mean_cov_worst": 1.0,
+      "min_cov_worst": 1.0,
+      "n_below_0.95_worst": 0,
+      "n_below_0.95_uniform": 0,
+      "median_halfwidth_rel": 0.5440005142769534
+    }
+  },
+  "report_state_rows": {
+    "naive": {
+      "n": 22,
+      "mean_cov_uniform": 0.5802896103896104,
+      "min_cov_uniform": 0.12194285714285714,
+      "mean_cov_worst": 0.017393506493506492,
+      "min_cov_worst": 0.0,
+      "n_below_0.95_worst": 22,
+      "n_below_0.95_uniform": 22,
+      "median_halfwidth_rel": 0.10780328435590787
+    },
+    "blind": {
+      "n": 22,
+      "mean_cov_uniform": 0.984537012987013,
+      "min_cov_uniform": 0.7676571428571428,
+      "mean_cov_worst": 0.45440974025974035,
+      "min_cov_worst": 0.10117142857142856,
+      "n_below_0.95_worst": 19,
+      "n_below_0.95_uniform": 1,
+      "median_halfwidth_rel": 0.7177643402420715
+    },
+    "certified": {
+      "n": 22,
+      "mean_cov_uniform": 1.0,
+      "min_cov_uniform": 1.0,
+      "mean_cov_worst": 1.0,
+      "min_cov_worst": 1.0,
+      "n_below_0.95_worst": 0,
+      "n_below_0.95_uniform": 0,
+      "median_halfwidth_rel": 1.0
+    }
+  }
+}

@@ -1,0 +1,729 @@
+{
+  "snr": 50.0,
+  "kappa": 0.5,
+  "eta_reference_rel": 0.01,
+  "mean_report_regret_k1to5": {
+    "A-optimal": 1.2,
+    "D-optimal": 1.6,
+    "E-optimal": 1.2,
+    "greedy-D (EfI-type)": 1.6,
+    "query-aware (REPORT)": 0.0,
+    "query-aware (certified)": 0.6
+  },
+  "max_report_regret_k1to5": {
+    "A-optimal": 2,
+    "D-optimal": 2,
+    "E-optimal": 2,
+    "greedy-D (EfI-type)": 2,
+    "query-aware (REPORT)": 0,
+    "query-aware (certified)": 2
+  },
+  "mean_certified_regret_k1to5": {
+    "A-optimal": 0.6,
+    "D-optimal": 0.6,
+    "E-optimal": 0.4,
+    "greedy-D (EfI-type)": 0.6,
+    "query-aware (REPORT)": 0.0,
+    "query-aware (certified)": 0.0
+  },
+  "D_loss_of_query_aware_k1to5": {
+    "query-aware (REPORT)": 1.347,
+    "query-aware (certified)": 1.219
+  },
+  "choices_reference_eta": [
+    {
+      "k": 0,
+      "rule": "D-optimal",
+      "channels": "D+",
+      "report": 2,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 0,
+      "rule": "A-optimal",
+      "channels": "D+",
+      "report": 2,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 0,
+      "rule": "E-optimal",
+      "channels": "D+",
+      "report": 2,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 0,
+      "rule": "greedy-D (EfI-type)",
+      "channels": "D+",
+      "report": 2,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 0,
+      "rule": "query-aware (REPORT)",
+      "channels": "D+",
+      "report": 2,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 0,
+      "rule": "query-aware (certified)",
+      "channels": "D+",
+      "report": 2,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 1,
+      "rule": "D-optimal",
+      "channels": "D+A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 1,
+      "rule": "A-optimal",
+      "channels": "D+A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 1,
+      "rule": "E-optimal",
+      "channels": "D+A6",
+      "report": 2,
+      "certified": 1,
+      "report_regret": 1,
+      "certified_regret": 0,
+      "D_loss": 0.04376995730007138,
+      "lost_report_modes": [
+        14
+      ]
+    },
+    {
+      "k": 1,
+      "rule": "greedy-D (EfI-type)",
+      "channels": "D+A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 1,
+      "rule": "query-aware (REPORT)",
+      "channels": "D+A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 1,
+      "rule": "query-aware (certified)",
+      "channels": "D+A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 2,
+      "rule": "D-optimal",
+      "channels": "D+A3A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 2,
+      "certified_regret": 1,
+      "D_loss": 0.0,
+      "lost_report_modes": [
+        6,
+        12
+      ]
+    },
+    {
+      "k": 2,
+      "rule": "A-optimal",
+      "channels": "D+A1A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 2,
+      "certified_regret": 1,
+      "D_loss": 0.051193553880807485,
+      "lost_report_modes": [
+        6,
+        12
+      ]
+    },
+    {
+      "k": 2,
+      "rule": "E-optimal",
+      "channels": "D+A3A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 2,
+      "certified_regret": 1,
+      "D_loss": 0.0,
+      "lost_report_modes": [
+        6,
+        12
+      ]
+    },
+    {
+      "k": 2,
+      "rule": "greedy-D (EfI-type)",
+      "channels": "D+A3A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 2,
+      "certified_regret": 1,
+      "D_loss": 0.0,
+      "lost_report_modes": [
+        6,
+        12
+      ]
+    },
+    {
+      "k": 2,
+      "rule": "query-aware (REPORT)",
+      "channels": "D+A1A2",
+      "report": 5,
+      "certified": 2,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 1.7365259248054201,
+      "lost_report_modes": []
+    },
+    {
+      "k": 2,
+      "rule": "query-aware (certified)",
+      "channels": "D+A1A2",
+      "report": 5,
+      "certified": 2,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 1.7365259248054201,
+      "lost_report_modes": []
+    },
+    {
+      "k": 3,
+      "rule": "D-optimal",
+      "channels": "D+A2A3A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 2,
+      "certified_regret": 1,
+      "D_loss": 0.0,
+      "lost_report_modes": [
+        6,
+        12
+      ]
+    },
+    {
+      "k": 3,
+      "rule": "A-optimal",
+      "channels": "D+A1A3A6",
+      "report": 4,
+      "certified": 1,
+      "report_regret": 1,
+      "certified_regret": 1,
+      "D_loss": 0.11940446507733782,
+      "lost_report_modes": [
+        6,
+        12
+      ]
+    },
+    {
+      "k": 3,
+      "rule": "E-optimal",
+      "channels": "D+A2A3A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 2,
+      "certified_regret": 1,
+      "D_loss": 0.0,
+      "lost_report_modes": [
+        6,
+        12
+      ]
+    },
+    {
+      "k": 3,
+      "rule": "greedy-D (EfI-type)",
+      "channels": "D+A2A3A5",
+      "report": 3,
+      "certified": 1,
+      "report_regret": 2,
+      "certified_regret": 1,
+      "D_loss": 0.0,
+      "lost_report_modes": [
+        6,
+        12
+      ]
+    },
+    {
+      "k": 3,
+      "rule": "query-aware (REPORT)",
+      "channels": "D+A1A2A5",
+      "report": 5,
+      "certified": 2,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 1.4847075189379666,
+      "lost_report_modes": []
+    },
+    {
+      "k": 3,
+      "rule": "query-aware (certified)",
+      "channels": "D+A1A2A5",
+      "report": 5,
+      "certified": 2,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 1.4847075189379666,
+      "lost_report_modes": []
+    },
+    {
+      "k": 4,
+      "rule": "D-optimal",
+      "channels": "D+A1A3A4A5",
+      "report": 5,
+      "certified": 1,
+      "report_regret": 2,
+      "certified_regret": 1,
+      "D_loss": 0.0,
+      "lost_report_modes": [
+        5,
+        6,
+        10
+      ]
+    },
+    {
+      "k": 4,
+      "rule": "A-optimal",
+      "channels": "D+A1A3A4A6",
+      "report": 5,
+      "certified": 1,
+      "report_regret": 2,
+      "certified_regret": 1,
+      "D_loss": 0.013817667929174604,
+      "lost_report_modes": [
+        5,
+        6,
+        10
+      ]
+    },
+    {
+      "k": 4,
+      "rule": "E-optimal",
+      "channels": "D+A1A2A3A4",
+      "report": 6,
+      "certified": 2,
+      "report_regret": 1,
+      "certified_regret": 0,
+      "D_loss": 2.874320705373407,
+      "lost_report_modes": [
+        10
+      ]
+    },
+    {
+      "k": 4,
+      "rule": "greedy-D (EfI-type)",
+      "channels": "D+A2A3A4A5",
+      "report": 5,
+      "certified": 1,
+      "report_regret": 2,
+      "certified_regret": 1,
+      "D_loss": 0.018793687209978316,
+      "lost_report_modes": [
+        5,
+        6,
+        10
+      ]
+    },
+    {
+      "k": 4,
+      "rule": "query-aware (REPORT)",
+      "channels": "D+A1A2A5A6",
+      "report": 7,
+      "certified": 2,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 3.0497505107506413,
+      "lost_report_modes": []
+    },
+    {
+      "k": 4,
+      "rule": "query-aware (certified)",
+      "channels": "D+A1A2A3A4",
+      "report": 6,
+      "certified": 2,
+      "report_regret": 1,
+      "certified_regret": 0,
+      "D_loss": 2.874320705373407,
+      "lost_report_modes": [
+        10
+      ]
+    },
+    {
+      "k": 5,
+      "rule": "D-optimal",
+      "channels": "D+A1A2A3A4A5",
+      "report": 7,
+      "certified": 2,
+      "report_regret": 2,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": [
+        10,
+        13
+      ]
+    },
+    {
+      "k": 5,
+      "rule": "A-optimal",
+      "channels": "D+A1A2A4A5A6",
+      "report": 8,
+      "certified": 2,
+      "report_regret": 1,
+      "certified_regret": 0,
+      "D_loss": 0.4714926501208083,
+      "lost_report_modes": [
+        13
+      ]
+    },
+    {
+      "k": 5,
+      "rule": "E-optimal",
+      "channels": "D+A1A2A3A5A6",
+      "report": 9,
+      "certified": 2,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.4659555912548967,
+      "lost_report_modes": []
+    },
+    {
+      "k": 5,
+      "rule": "greedy-D (EfI-type)",
+      "channels": "D+A1A2A3A4A5",
+      "report": 7,
+      "certified": 2,
+      "report_regret": 2,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": [
+        10,
+        13
+      ]
+    },
+    {
+      "k": 5,
+      "rule": "query-aware (REPORT)",
+      "channels": "D+A1A2A3A5A6",
+      "report": 9,
+      "certified": 2,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.4659555912548967,
+      "lost_report_modes": []
+    },
+    {
+      "k": 5,
+      "rule": "query-aware (certified)",
+      "channels": "D+A1A2A3A4A5",
+      "report": 7,
+      "certified": 2,
+      "report_regret": 2,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": [
+        10,
+        13
+      ]
+    },
+    {
+      "k": 6,
+      "rule": "D-optimal",
+      "channels": "D+A1A2A3A4A5A6",
+      "report": 10,
+      "certified": 3,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 6,
+      "rule": "A-optimal",
+      "channels": "D+A1A2A3A4A5A6",
+      "report": 10,
+      "certified": 3,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 6,
+      "rule": "E-optimal",
+      "channels": "D+A1A2A3A4A5A6",
+      "report": 10,
+      "certified": 3,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 6,
+      "rule": "greedy-D (EfI-type)",
+      "channels": "D+A1A2A3A4A5A6",
+      "report": 10,
+      "certified": 3,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 6,
+      "rule": "query-aware (REPORT)",
+      "channels": "D+A1A2A3A4A5A6",
+      "report": 10,
+      "certified": 3,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    },
+    {
+      "k": 6,
+      "rule": "query-aware (certified)",
+      "channels": "D+A1A2A3A4A5A6",
+      "report": 10,
+      "certified": 3,
+      "report_regret": 0,
+      "certified_regret": 0,
+      "D_loss": 0.0,
+      "lost_report_modes": []
+    }
+  ],
+  "regret_by_eta": {
+    "0.0001": {
+      "A-optimal": 1.2,
+      "D-optimal": 1.6,
+      "E-optimal": 1.4,
+      "greedy-D (EfI-type)": 1.6,
+      "query-aware (REPORT)": 0.0,
+      "query-aware (certified)": 0.6
+    },
+    "0.001": {
+      "A-optimal": 1.2,
+      "D-optimal": 1.6,
+      "E-optimal": 1.8,
+      "greedy-D (EfI-type)": 1.6,
+      "query-aware (REPORT)": 0.0,
+      "query-aware (certified)": 0.6
+    },
+    "0.01": {
+      "A-optimal": 1.2,
+      "D-optimal": 1.6,
+      "E-optimal": 1.2,
+      "greedy-D (EfI-type)": 1.6,
+      "query-aware (REPORT)": 0.0,
+      "query-aware (certified)": 0.6
+    },
+    "0.1": {
+      "A-optimal": 1.6,
+      "D-optimal": 1.6,
+      "E-optimal": 0.4,
+      "greedy-D (EfI-type)": 1.6,
+      "query-aware (REPORT)": 0.0,
+      "query-aware (certified)": 0.6
+    },
+    "1.0": {
+      "A-optimal": 1.6,
+      "D-optimal": 1.4,
+      "E-optimal": 1.6,
+      "greedy-D (EfI-type)": 1.4,
+      "query-aware (REPORT)": 0.0,
+      "query-aware (certified)": 0.6
+    }
+  },
+  "spearman": [
+    {
+      "eta_rel": 0.0001,
+      "criterion": "D",
+      "rho_report": 0.8060099654674556,
+      "rho_certified": 0.4219962650589515,
+      "rho_mean_rel": 0.8293040293040292,
+      "n_distinct_values": 64
+    },
+    {
+      "eta_rel": 0.0001,
+      "criterion": "A",
+      "rho_report": 0.8052888598706449,
+      "rho_certified": 0.4085691111707121,
+      "rho_mean_rel": 0.8233974358974357,
+      "n_distinct_values": 64
+    },
+    {
+      "eta_rel": 0.0001,
+      "criterion": "E",
+      "rho_report": -0.009351111287674376,
+      "rho_certified": -0.1203267849576462,
+      "rho_mean_rel": -0.02971611721611721,
+      "n_distinct_values": 1
+    },
+    {
+      "eta_rel": 0.001,
+      "criterion": "D",
+      "rho_report": 0.8057075663462123,
+      "rho_certified": 0.4219962650589515,
+      "rho_mean_rel": 0.8293040293040292,
+      "n_distinct_values": 64
+    },
+    {
+      "eta_rel": 0.001,
+      "criterion": "A",
+      "rho_report": 0.8052888598706449,
+      "rho_certified": 0.4085691111707121,
+      "rho_mean_rel": 0.823168498168498,
+      "n_distinct_values": 63
+    },
+    {
+      "eta_rel": 0.001,
+      "criterion": "E",
+      "rho_report": 0.01823699315805152,
+      "rho_certified": -0.11131445491021116,
+      "rho_mean_rel": 0.027747252747252746,
+      "n_distinct_values": 1
+    },
+    {
+      "eta_rel": 0.01,
+      "criterion": "D",
+      "rho_report": 0.7921228673611332,
+      "rho_certified": 0.404732781488358,
+      "rho_mean_rel": 0.8174908424908424,
+      "n_distinct_values": 64
+    },
+    {
+      "eta_rel": 0.01,
+      "criterion": "A",
+      "rho_report": 0.8046375386864287,
+      "rho_certified": 0.41624177053542033,
+      "rho_mean_rel": 0.8239010989010989,
+      "n_distinct_values": 64
+    },
+    {
+      "eta_rel": 0.01,
+      "criterion": "E",
+      "rho_report": 0.17727473107663014,
+      "rho_certified": 0.026949042481974925,
+      "rho_mean_rel": 0.15024785749196037,
+      "n_distinct_values": 1
+    },
+    {
+      "eta_rel": 0.1,
+      "criterion": "D",
+      "rho_report": 0.7768168195320543,
+      "rho_certified": 0.39130562760011867,
+      "rho_mean_rel": 0.8054945054945055,
+      "n_distinct_values": 64
+    },
+    {
+      "eta_rel": 0.1,
+      "criterion": "A",
+      "rho_report": 0.764953469390975,
+      "rho_certified": 0.37787847371187927,
+      "rho_mean_rel": 0.7884157509157509,
+      "n_distinct_values": 64
+    },
+    {
+      "eta_rel": 0.1,
+      "criterion": "E",
+      "rho_report": -0.018855610097958747,
+      "rho_certified": -0.0571148735265726,
+      "rho_mean_rel": -0.0312958295249852,
+      "n_distinct_values": 1
+    },
+    {
+      "eta_rel": 1.0,
+      "criterion": "D",
+      "rho_report": 0.8151982464590759,
+      "rho_certified": 0.37979663855305634,
+      "rho_mean_rel": 0.8309065934065933,
+      "n_distinct_values": 64
+    },
+    {
+      "eta_rel": 1.0,
+      "criterion": "A",
+      "rho_report": 0.793518555613025,
+      "rho_certified": 0.4104872760118892,
+      "rho_mean_rel": 0.8211080586080585,
+      "n_distinct_values": 61
+    },
+    {
+      "eta_rel": 1.0,
+      "criterion": "E",
+      "rho_report": 0.0770187462411304,
+      "rho_certified": -0.029119876779598458,
+      "rho_mean_rel": 0.045274564052329866,
+      "n_distinct_values": 2
+    }
+  ],
+  "E_degenerate_all_eta": true,
+  "full_array_singular_values": [
+    1.8599,
+    1.4871,
+    1.3636,
+    1.3048,
+    1.222,
+    1.0822,
+    1.0193,
+    0.8582,
+    0.4967,
+    0.2604,
+    0.1036,
+    0.0489
+  ]
+}

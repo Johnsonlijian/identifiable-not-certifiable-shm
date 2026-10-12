@@ -1,0 +1,10 @@
+# Public reproducibility repository ignores
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+external_data/
+*.h5
+*.zip

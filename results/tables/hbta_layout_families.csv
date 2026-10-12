@@ -1,0 +1,8 @@
+layout,n_sensors,n_rows,REPORT,BOUND,REFUSE,cert_noise_only,cert_cross_condition,informative_cross_condition,certified_states
+full,18,180,8,0,0,8,1,2,DS8
+north wall,9,90,8,0,0,8,0,0,
+south wall,9,95,8,0,0,8,1,2,DS8
+deck joints,9,86,8,0,0,8,0,2,
+top-chord joints,9,95,8,0,0,8,0,2,
+west half,8,85,8,0,0,8,0,1,
+east half,8,80,8,0,0,8,0,1,

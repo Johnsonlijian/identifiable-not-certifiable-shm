@@ -1,0 +1,29 @@
+{\footnotesize
+\begin{longtable}{lllccccc}
+\caption{FE model, nonlinear truth: coverage of the four interval rules on the 16 single-axis solutions (in-sample for the single-axis envelope) and on the 13 box corners (out of sample), with 4000 noise draws per solution; columns give the number of layout--query--solution rows, mean and minimum coverage, fraction of rows below 0.95, and median half-width relative to the prior.}\label{tab:s9}\\
+\toprule observables & solutions & rule & rows & mean & min & $<0.95$ & $w/w_0$\\ \midrule\endfirsthead
+\toprule observables & solutions & rule & rows & mean & min & $<0.95$ & $w/w_0$\\ \midrule\endhead
+frequencies & single-axis & naive & 480 & 0.859 & 0.000 & 0.77 & 0.32 \\
+frequencies & single-axis & model-error blind & 480 & 0.859 & 0.000 & 0.77 & 0.32 \\
+frequencies & single-axis & single-axis envelope & 480 & 0.994 & 0.981 & 0.00 & 0.51 \\
+frequencies & corners & naive & 390 & 0.470 & 0.000 & 0.97 & 0.32 \\
+frequencies & corners & model-error blind & 390 & 0.470 & 0.000 & 0.97 & 0.32 \\
+frequencies & corners & single-axis envelope & 390 & 0.933 & 0.201 & 0.12 & 0.51 \\
+frequencies & corners & combined (leave-one-corner-out) & 390 & 0.997 & 0.981 & 0.00 & 0.63 \\
+mode shapes & single-axis & naive & 480 & 0.426 & 0.000 & 0.96 & 0.07 \\
+mode shapes & single-axis & model-error blind & 480 & 0.724 & 0.000 & 0.43 & 0.17 \\
+mode shapes & single-axis & single-axis envelope & 480 & 1.000 & 0.997 & 0.00 & 1.00 \\
+mode shapes & corners & naive & 390 & 0.077 & 0.000 & 1.00 & 0.07 \\
+mode shapes & corners & model-error blind & 390 & 0.309 & 0.000 & 0.74 & 0.17 \\
+mode shapes & corners & single-axis envelope & 390 & 0.896 & 0.000 & 0.12 & 1.00 \\
+mode shapes & corners & combined (leave-one-corner-out) & 390 & 1.000 & 0.999 & 0.00 & 1.00 \\
+both & single-axis & naive & 480 & 0.486 & 0.000 & 0.92 & 0.07 \\
+both & single-axis & model-error blind & 480 & 0.486 & 0.000 & 0.92 & 0.07 \\
+both & single-axis & single-axis envelope & 480 & 0.997 & 0.984 & 0.00 & 0.44 \\
+both & corners & naive & 390 & 0.083 & 0.000 & 1.00 & 0.07 \\
+both & corners & model-error blind & 390 & 0.083 & 0.000 & 1.00 & 0.07 \\
+both & corners & single-axis envelope & 390 & 0.825 & 0.000 & 0.26 & 0.44 \\
+both & corners & combined (leave-one-corner-out) & 390 & 0.996 & 0.981 & 0.00 & 0.58 \\
+\bottomrule
+\end{longtable}
+}

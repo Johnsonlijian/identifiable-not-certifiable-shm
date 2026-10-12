@@ -1,0 +1,725 @@
+{
+ "AG01": {
+  "position": [
+   -14.0,
+   2.25,
+   0.6
+  ],
+  "location": "North bridge wall (joint at bridge deck level)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG02": {
+  "position": [
+   -10.5,
+   2.25,
+   4.1
+  ],
+  "location": "North bridge wall (top girder joint)",
+  "type": "Dytran 3233A tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG03": {
+  "position": [
+   -7.0,
+   2.25,
+   0.6
+  ],
+  "location": "North bridge wall (joint at bridge deck level)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG04": {
+  "position": [
+   -3.5,
+   2.25,
+   4.9
+  ],
+  "location": "North bridge wall (top girder joint)",
+  "type": "Dytran 3233A tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG05": {
+  "position": [
+   0.0,
+   2.25,
+   0.6
+  ],
+  "location": "North bridge wall (joint at bridge deck level)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG06": {
+  "position": [
+   3.5,
+   2.25,
+   4.9
+  ],
+  "location": "North bridge wall (top girder joint)",
+  "type": "Dytran 3233A tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG07": {
+  "position": [
+   7.0,
+   2.25,
+   0.6
+  ],
+  "location": "North bridge wall (joint at bridge deck level)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG08": {
+  "position": [
+   10.5,
+   2.25,
+   4.1
+  ],
+  "location": "North bridge wall (top girder joint)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG09": {
+  "position": [
+   14.0,
+   2.25,
+   0.6
+  ],
+  "location": "North bridge wall (joint at bridge deck level)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AG10": {
+  "position": [
+   -14.0,
+   -2.25,
+   3.4
+  ],
+  "location": "South bridge wall (top girder joint)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG11": {
+  "position": [
+   -10.5,
+   -2.25,
+   0.6
+  ],
+  "location": "South bridge wall (joint at bridge deck level)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG12": {
+  "position": [
+   -7.0,
+   -2.25,
+   4.6
+  ],
+  "location": "South bridge wall (top girder joint)",
+  "type": "Dytran 3233A tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG13": {
+  "position": [
+   -3.5,
+   -2.25,
+   0.6
+  ],
+  "location": "South bridge wall (joint at bridge deck level)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG14": {
+  "position": [
+   0.0,
+   -2.25,
+   5.0
+  ],
+  "location": "South bridge wall (top girder joint)",
+  "type": "Dytran 3233A tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG15": {
+  "position": [
+   3.5,
+   -2.25,
+   0.6
+  ],
+  "location": "South bridge wall (joint at bridge deck level)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG16": {
+  "position": [
+   7.0,
+   -2.25,
+   4.6
+  ],
+  "location": "South bridge wall (top girder joint)",
+  "type": "Dytran 3233A tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG17": {
+  "position": [
+   10.5,
+   -2.25,
+   0.6
+  ],
+  "location": "South bridge wall (joint at bridge deck level)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AG18": {
+  "position": [
+   14.0,
+   -2.25,
+   3.4
+  ],
+  "location": "South bridge wall (top girder joint)",
+  "type": "Dytran 3583BT tri-axial accelerometer",
+  "comps": [
+   "y",
+   "z"
+  ]
+ },
+ "AL01": {
+  "position": [
+   -15.75,
+   -0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL02": {
+  "position": [
+   -15.75,
+   -0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL03": {
+  "position": [
+   -15.75,
+   0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL04": {
+  "position": [
+   -15.75,
+   0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL05": {
+  "position": [
+   -12.25,
+   -0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL06": {
+  "position": [
+   -12.25,
+   -0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL07": {
+  "position": [
+   -12.25,
+   0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL08": {
+  "position": [
+   -12.25,
+   0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL09": {
+  "position": [
+   -8.75,
+   -0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL10": {
+  "position": [
+   -8.75,
+   -0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL11": {
+  "position": [
+   -8.75,
+   0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL12": {
+  "position": [
+   -8.75,
+   0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL13": {
+  "position": [
+   -5.25,
+   -0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL14": {
+  "position": [
+   -5.25,
+   -0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL15": {
+  "position": [
+   -5.25,
+   0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL16": {
+  "position": [
+   -5.25,
+   0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL17": {
+  "position": [
+   -1.75,
+   -0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL18": {
+  "position": [
+   -1.75,
+   -0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL19": {
+  "position": [
+   -1.75,
+   0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL20": {
+  "position": [
+   -1.75,
+   0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL21": {
+  "position": [
+   1.75,
+   -0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL22": {
+  "position": [
+   1.75,
+   -0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL23": {
+  "position": [
+   1.75,
+   0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL24": {
+  "position": [
+   1.75,
+   0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL25": {
+  "position": [
+   5.25,
+   -0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL26": {
+  "position": [
+   5.25,
+   -0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL27": {
+  "position": [
+   5.25,
+   0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL28": {
+  "position": [
+   5.25,
+   0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL29": {
+  "position": [
+   8.75,
+   -0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL30": {
+  "position": [
+   8.75,
+   -0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL31": {
+  "position": [
+   8.75,
+   0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL32": {
+  "position": [
+   8.75,
+   0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL33": {
+  "position": [
+   12.25,
+   -0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL34": {
+  "position": [
+   12.25,
+   -0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL35": {
+  "position": [
+   12.25,
+   0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL36": {
+  "position": [
+   12.25,
+   0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL37": {
+  "position": [
+   15.75,
+   -0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL38": {
+  "position": [
+   15.75,
+   -0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL39": {
+  "position": [
+   15.75,
+   0.55,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AL40": {
+  "position": [
+   15.75,
+   0.95,
+   0.19
+  ],
+  "location": "Below bridge deck at the bridge deck stringer",
+  "type": "Dytran 3055D3 single-axis accelerometer",
+  "comps": [
+   "z"
+  ]
+ },
+ "AS": {
+  "position": [
+   "According to the MVS position"
+  ],
+  "location": "Modal vibration shaker (MVS)",
+  "type": "PCB 356A16 tri-axial accelerometer",
+  "comps": [
+   "y"
+  ]
+ }
+}

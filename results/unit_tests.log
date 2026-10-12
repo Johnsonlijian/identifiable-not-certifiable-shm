@@ -1,0 +1,13 @@
+﻿PASS orthogonal design closed form
+PASS break-even floor retains lam > (z/b)^2  [floor=384.15]
+PASS projection estimator identity
+PASS sandwich bounds
+PASS adding sensors never widens  [0.30494 -> 0.08891]
+PASS larger envelope never tightens
+PASS larger noise never tightens
+PASS rank floor = noise-free limit  [0.150935 vs 0.150918]
+PASS rank floor >= b ||P_null q||_2
+PASS certified coverage >= 0.95 under adversarial bias  [worst=0.9940]
+PASS prior fallback
+
+ALL PASS

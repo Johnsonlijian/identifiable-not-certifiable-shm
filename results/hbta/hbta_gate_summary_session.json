@@ -1,0 +1,843 @@
+{
+  "n_reference_modes": 17,
+  "n_channels": 35,
+  "combos": [
+    "NM-Z-P2",
+    "SM-Y-P1",
+    "SM-Y-P2",
+    "SM-Z-P1",
+    "SM-Z-P2"
+  ],
+  "noise": {
+    "freq_median_sd_rel": 0.00020199707365445033,
+    "shape_median_sd": 0.0012616274885132073
+  },
+  "usable_observables_all": 180,
+  "geometry_full": {
+    "n_rows_full": 180,
+    "signature_norm": {
+      "DS1": 28.14,
+      "DS2": 54.05,
+      "DS3": 37.3,
+      "DS4": 36.76,
+      "DS5": 44.99,
+      "DS6": 25.37,
+      "DS7": 39.47,
+      "DS8": 106.18,
+      "benign": 28.2
+    },
+    "envelope_norm": {
+      "DS1": 17.55,
+      "DS2": 15.45,
+      "DS3": 30.58,
+      "DS4": 27.7,
+      "DS5": 25.07,
+      "DS6": 11.6,
+      "DS7": 13.57,
+      "DS8": 32.17,
+      "benign": 18.51
+    },
+    "max_abs_cos_benign": 0.650670292750582,
+    "cos_matrix": [
+      [
+        1.0,
+        0.417,
+        0.341,
+        0.103,
+        0.59,
+        0.801,
+        0.443,
+        0.131,
+        0.651
+      ],
+      [
+        0.417,
+        1.0,
+        -0.09,
+        -0.312,
+        0.01,
+        0.447,
+        0.131,
+        0.05,
+        0.351
+      ],
+      [
+        0.341,
+        -0.09,
+        1.0,
+        0.817,
+        0.197,
+        0.297,
+        0.164,
+        0.21,
+        0.188
+      ],
+      [
+        0.103,
+        -0.312,
+        0.817,
+        1.0,
+        0.006,
+        0.113,
+        -0.011,
+        -0.076,
+        0.068
+      ],
+      [
+        0.59,
+        0.01,
+        0.197,
+        0.006,
+        1.0,
+        0.447,
+        0.878,
+        0.132,
+        0.343
+      ],
+      [
+        0.801,
+        0.447,
+        0.297,
+        0.113,
+        0.447,
+        1.0,
+        0.446,
+        0.256,
+        0.524
+      ],
+      [
+        0.443,
+        0.131,
+        0.164,
+        -0.011,
+        0.878,
+        0.446,
+        1.0,
+        0.265,
+        0.182
+      ],
+      [
+        0.131,
+        0.05,
+        0.21,
+        -0.076,
+        0.132,
+        0.256,
+        0.265,
+        1.0,
+        0.009
+      ],
+      [
+        0.651,
+        0.351,
+        0.188,
+        0.068,
+        0.343,
+        0.524,
+        0.182,
+        0.009,
+        1.0
+      ]
+    ]
+  },
+  "insample_full": [
+    {
+      "query": "DS1",
+      "state": "REPORT",
+      "rel_noise_only": 0.16668059009960678,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS2",
+      "state": "REPORT",
+      "rel_noise_only": 0.05855324150528525,
+      "rel_certified": 0.7314644732423523,
+      "limitation": "drift"
+    },
+    {
+      "query": "DS3",
+      "state": "REPORT",
+      "rel_noise_only": 0.12261033427187806,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS4",
+      "state": "REPORT",
+      "rel_noise_only": 0.12862790218300327,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS5",
+      "state": "REPORT",
+      "rel_noise_only": 0.14393623978698622,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS6",
+      "state": "REPORT",
+      "rel_noise_only": 0.14624463829608123,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS7",
+      "state": "REPORT",
+      "rel_noise_only": 0.14212499012722501,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS8",
+      "state": "REPORT",
+      "rel_noise_only": 0.024199603855113275,
+      "rel_certified": 0.47927837761002484,
+      "limitation": "drift"
+    },
+    {
+      "query": "DS1-DS2",
+      "state": "REPORT",
+      "rel_noise_only": 0.09646324095209728,
+      "rel_certified": 0.865633474229882,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS1-DS3",
+      "state": "REPORT",
+      "rel_noise_only": 0.11123500186329731,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS1-DS4",
+      "state": "REPORT",
+      "rel_noise_only": 0.10332677771829275,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS1-DS5",
+      "state": "REPORT",
+      "rel_noise_only": 0.13510708992355694,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS1-DS6",
+      "state": "REPORT",
+      "rel_noise_only": 0.1409088092054958,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS1-DS7",
+      "state": "REPORT",
+      "rel_noise_only": 0.08563217701222464,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS1-DS8",
+      "state": "REPORT",
+      "rel_noise_only": 0.0839665183961084,
+      "rel_certified": 0.7271416304348116,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS2-DS3",
+      "state": "REPORT",
+      "rel_noise_only": 0.07556621077453222,
+      "rel_certified": 0.846137852914522,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS2-DS4",
+      "state": "REPORT",
+      "rel_noise_only": 0.05563058931655183,
+      "rel_certified": 0.7677698612581632,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS2-DS5",
+      "state": "REPORT",
+      "rel_noise_only": 0.059166847762871594,
+      "rel_certified": 0.850934716216085,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS2-DS6",
+      "state": "REPORT",
+      "rel_noise_only": 0.08208847993167068,
+      "rel_certified": 0.8475458178201382,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS2-DS7",
+      "state": "REPORT",
+      "rel_noise_only": 0.08954168823931236,
+      "rel_certified": 0.8652510598759617,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS2-DS8",
+      "state": "REPORT",
+      "rel_noise_only": 0.02764864377345043,
+      "rel_certified": 0.4529673698414048,
+      "limitation": "drift"
+    },
+    {
+      "query": "DS3-DS4",
+      "state": "REPORT",
+      "rel_noise_only": 0.12154123845524718,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS3-DS5",
+      "state": "REPORT",
+      "rel_noise_only": 0.10493459502195415,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS3-DS6",
+      "state": "REPORT",
+      "rel_noise_only": 0.088396554159163,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS3-DS7",
+      "state": "REPORT",
+      "rel_noise_only": 0.08456627372153896,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS3-DS8",
+      "state": "REPORT",
+      "rel_noise_only": 0.06841392566575062,
+      "rel_certified": 0.7396392014329375,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS4-DS5",
+      "state": "REPORT",
+      "rel_noise_only": 0.07794285639508056,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS4-DS6",
+      "state": "REPORT",
+      "rel_noise_only": 0.10559392132072958,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS4-DS7",
+      "state": "REPORT",
+      "rel_noise_only": 0.1083734533941551,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS4-DS8",
+      "state": "REPORT",
+      "rel_noise_only": 0.058712015890693275,
+      "rel_certified": 0.6188032026050155,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS5-DS6",
+      "state": "REPORT",
+      "rel_noise_only": 0.09199162330180286,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS5-DS7",
+      "state": "REPORT",
+      "rel_noise_only": 0.13981988733478054,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS5-DS8",
+      "state": "REPORT",
+      "rel_noise_only": 0.0687275643539937,
+      "rel_certified": 0.709062341636449,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS6-DS7",
+      "state": "REPORT",
+      "rel_noise_only": 0.11373074202706374,
+      "rel_certified": 1.0,
+      "limitation": "prior"
+    },
+    {
+      "query": "DS6-DS8",
+      "state": "REPORT",
+      "rel_noise_only": 0.07664948314148978,
+      "rel_certified": 0.7370298049520025,
+      "limitation": "alias"
+    },
+    {
+      "query": "DS7-DS8",
+      "state": "REPORT",
+      "rel_noise_only": 0.07626624295759964,
+      "rel_certified": 0.7396391993145683,
+      "limitation": "alias"
+    }
+  ],
+  "insample_state_counts_presence": {
+    "full": {
+      "REPORT": 8
+    },
+    "north wall": {
+      "REPORT": 8
+    },
+    "south wall": {
+      "REPORT": 8
+    },
+    "deck joints": {
+      "REPORT": 8
+    },
+    "top-chord joints": {
+      "REPORT": 8
+    },
+    "west half": {
+      "REPORT": 8
+    },
+    "east half": {
+      "REPORT": 8
+    }
+  },
+  "insample_certified_presence": {
+    "full": {
+      "noise_only": 8,
+      "certified": 1
+    },
+    "north wall": {
+      "noise_only": 8,
+      "certified": 0
+    },
+    "south wall": {
+      "noise_only": 8,
+      "certified": 1
+    },
+    "deck joints": {
+      "noise_only": 8,
+      "certified": 0
+    },
+    "top-chord joints": {
+      "noise_only": 8,
+      "certified": 0
+    },
+    "west half": {
+      "noise_only": 8,
+      "certified": 0
+    },
+    "east half": {
+      "noise_only": 8,
+      "certified": 0
+    }
+  },
+  "single_sensor_report_rate": {
+    "DS1": 0.05555555555555555,
+    "DS2": 0.8888888888888888,
+    "DS3": 0.05555555555555555,
+    "DS4": 0.1111111111111111,
+    "DS5": 0.0,
+    "DS6": 0.16666666666666666,
+    "DS7": 0.0,
+    "DS8": 0.7222222222222222
+  },
+  "single_sensor_cert_rate": {
+    "DS1": 0.0,
+    "DS2": 0.0,
+    "DS3": 0.0,
+    "DS4": 0.0,
+    "DS5": 0.0,
+    "DS6": 0.0,
+    "DS7": 0.0,
+    "DS8": 0.0
+  },
+  "loeo_full": {
+    "n": 320,
+    "naive": {
+      "coverage": 0.675,
+      "coverage_true_state": 0.225,
+      "coverage_other_states": 0.7392857142857143,
+      "detection_rate": 0.6,
+      "false_attribution_rate": 0.26071428571428573,
+      "median_halfwidth": 0.37495475606223044
+    },
+    "noise_only": {
+      "coverage": 0.7375,
+      "coverage_true_state": 0.475,
+      "coverage_other_states": 0.775,
+      "detection_rate": 0.5,
+      "false_attribution_rate": 0.225,
+      "median_halfwidth": 0.4589245612849069
+    },
+    "certified": {
+      "coverage": 1.0,
+      "coverage_true_state": 1.0,
+      "coverage_other_states": 1.0,
+      "detection_rate": 0.0,
+      "false_attribution_rate": 0.0,
+      "median_halfwidth": 1.0
+    }
+  },
+  "loeo_multi_sensor": {
+    "n": 2240,
+    "naive": {
+      "coverage": 0.7120535714285714,
+      "coverage_true_state": 0.2642857142857143,
+      "coverage_other_states": 0.7760204081632653,
+      "detection_rate": 0.525,
+      "false_attribution_rate": 0.2239795918367347,
+      "median_halfwidth": 0.382851153743621
+    },
+    "noise_only": {
+      "coverage": 0.8392857142857143,
+      "coverage_true_state": 0.6928571428571428,
+      "coverage_other_states": 0.860204081632653,
+      "detection_rate": 0.3607142857142857,
+      "false_attribution_rate": 0.13979591836734695,
+      "median_halfwidth": 0.7408853882499271
+    },
+    "certified": {
+      "coverage": 1.0,
+      "coverage_true_state": 1.0,
+      "coverage_other_states": 1.0,
+      "detection_rate": 0.0,
+      "false_attribution_rate": 0.0,
+      "median_halfwidth": 1.0
+    }
+  },
+  "loeo_single": {
+    "n": 4032,
+    "naive": {
+      "coverage": 0.6857638888888888,
+      "coverage_true_state": 0.07738095238095238,
+      "coverage_other_states": 0.7726757369614512,
+      "detection_rate": 0.39880952380952384,
+      "false_attribution_rate": 0.22732426303854875,
+      "median_halfwidth": 0.20871311875302606
+    },
+    "noise_only": {
+      "coverage": 1.0,
+      "coverage_true_state": 1.0,
+      "coverage_other_states": 1.0,
+      "detection_rate": 0.005952380952380952,
+      "false_attribution_rate": 0.0,
+      "median_halfwidth": 1.0
+    },
+    "certified": {
+      "coverage": 1.0,
+      "coverage_true_state": 1.0,
+      "coverage_other_states": 1.0,
+      "detection_rate": 0.0,
+      "false_attribution_rate": 0.0,
+      "median_halfwidth": 1.0
+    }
+  },
+  "loeo_attribution_full": {
+    "naive": 0.075,
+    "noise_only": 0.025,
+    "certified": 0.0
+  },
+  "loeo_full_by_heldout": {
+    "NM-Z-P2": {
+      "n": 64,
+      "naive": {
+        "coverage": 0.59375,
+        "coverage_true_state": 0.5,
+        "coverage_other_states": 0.6071428571428571,
+        "detection_rate": 0.75,
+        "false_attribution_rate": 0.39285714285714285,
+        "median_halfwidth": 0.3438583499595326
+      },
+      "noise_only": {
+        "coverage": 0.59375,
+        "coverage_true_state": 0.5,
+        "coverage_other_states": 0.6071428571428571,
+        "detection_rate": 0.75,
+        "false_attribution_rate": 0.39285714285714285,
+        "median_halfwidth": 0.34385835050897495
+      },
+      "certified": {
+        "coverage": 1.0,
+        "coverage_true_state": 1.0,
+        "coverage_other_states": 1.0,
+        "detection_rate": 0.0,
+        "false_attribution_rate": 0.0,
+        "median_halfwidth": 1.0
+      }
+    },
+    "SM-Y-P1": {
+      "n": 64,
+      "naive": {
+        "coverage": 0.828125,
+        "coverage_true_state": 0.0,
+        "coverage_other_states": 0.9464285714285714,
+        "detection_rate": 0.375,
+        "false_attribution_rate": 0.05357142857142857,
+        "median_halfwidth": 0.4337094510682591
+      },
+      "noise_only": {
+        "coverage": 0.875,
+        "coverage_true_state": 0.25,
+        "coverage_other_states": 0.9642857142857143,
+        "detection_rate": 0.125,
+        "false_attribution_rate": 0.03571428571428571,
+        "median_halfwidth": 0.6698362264699561
+      },
+      "certified": {
+        "coverage": 1.0,
+        "coverage_true_state": 1.0,
+        "coverage_other_states": 1.0,
+        "detection_rate": 0.0,
+        "false_attribution_rate": 0.0,
+        "median_halfwidth": 1.0
+      }
+    },
+    "SM-Y-P2": {
+      "n": 64,
+      "naive": {
+        "coverage": 0.8125,
+        "coverage_true_state": 0.0,
+        "coverage_other_states": 0.9285714285714286,
+        "detection_rate": 0.5,
+        "false_attribution_rate": 0.07142857142857142,
+        "median_halfwidth": 0.43078025630881156
+      },
+      "noise_only": {
+        "coverage": 0.953125,
+        "coverage_true_state": 0.75,
+        "coverage_other_states": 0.9821428571428571,
+        "detection_rate": 0.125,
+        "false_attribution_rate": 0.017857142857142856,
+        "median_halfwidth": 0.6729865321218654
+      },
+      "certified": {
+        "coverage": 1.0,
+        "coverage_true_state": 1.0,
+        "coverage_other_states": 1.0,
+        "detection_rate": 0.0,
+        "false_attribution_rate": 0.0,
+        "median_halfwidth": 1.0
+      }
+    },
+    "SM-Z-P1": {
+      "n": 64,
+      "naive": {
+        "coverage": 0.515625,
+        "coverage_true_state": 0.125,
+        "coverage_other_states": 0.5714285714285714,
+        "detection_rate": 0.5,
+        "false_attribution_rate": 0.42857142857142855,
+        "median_halfwidth": 0.4313419011494879
+      },
+      "noise_only": {
+        "coverage": 0.640625,
+        "coverage_true_state": 0.375,
+        "coverage_other_states": 0.6785714285714286,
+        "detection_rate": 0.625,
+        "false_attribution_rate": 0.32142857142857145,
+        "median_halfwidth": 0.5427858288829639
+      },
+      "certified": {
+        "coverage": 1.0,
+        "coverage_true_state": 1.0,
+        "coverage_other_states": 1.0,
+        "detection_rate": 0.0,
+        "false_attribution_rate": 0.0,
+        "median_halfwidth": 1.0
+      }
+    },
+    "SM-Z-P2": {
+      "n": 64,
+      "naive": {
+        "coverage": 0.625,
+        "coverage_true_state": 0.5,
+        "coverage_other_states": 0.6428571428571429,
+        "detection_rate": 0.875,
+        "false_attribution_rate": 0.35714285714285715,
+        "median_halfwidth": 0.35490557544086365
+      },
+      "noise_only": {
+        "coverage": 0.625,
+        "coverage_true_state": 0.5,
+        "coverage_other_states": 0.6428571428571429,
+        "detection_rate": 0.875,
+        "false_attribution_rate": 0.35714285714285715,
+        "median_halfwidth": 0.3549055756238992
+      },
+      "certified": {
+        "coverage": 1.0,
+        "coverage_true_state": 1.0,
+        "coverage_other_states": 1.0,
+        "detection_rate": 0.0,
+        "false_attribution_rate": 0.0,
+        "median_halfwidth": 1.0
+      }
+    }
+  },
+  "direction_attribution": {
+    "full_accuracy": 0.525,
+    "full_by_heldout": {
+      "NM-Z-P2": 0.625,
+      "SM-Y-P1": 0.375,
+      "SM-Y-P2": 0.5,
+      "SM-Z-P1": 0.25,
+      "SM-Z-P2": 0.875
+    },
+    "full_by_state": {
+      "DS1": 0.4,
+      "DS2": 0.6,
+      "DS3": 0.2,
+      "DS4": 0.4,
+      "DS5": 0.8,
+      "DS6": 0.8,
+      "DS7": 0.4,
+      "DS8": 0.6
+    },
+    "full_amplitude_ratio_median": 0.5415626040158483,
+    "full_amplitude_ratio_iqr": [
+      0.17851895129571083,
+      0.948993380781693
+    ],
+    "multi_sensor_accuracy": {
+      "deck joints": 0.425,
+      "east half": 0.375,
+      "full": 0.525,
+      "north wall": 0.4,
+      "south wall": 0.6,
+      "top-chord joints": 0.55,
+      "west half": 0.45
+    },
+    "single_sensor_accuracy": 0.32142857142857145,
+    "chance": 0.125
+  },
+  "loeo_full_by_state": {
+    "DS1": {
+      "naive": {
+        "coverage_true": 0.0,
+        "detect": 0.2
+      },
+      "noise_only": {
+        "coverage_true": 0.4,
+        "detect": 0.2
+      },
+      "certified": {
+        "coverage_true": 1.0,
+        "detect": 0.0
+      }
+    },
+    "DS2": {
+      "naive": {
+        "coverage_true": 0.0,
+        "detect": 0.4
+      },
+      "noise_only": {
+        "coverage_true": 0.0,
+        "detect": 0.6
+      },
+      "certified": {
+        "coverage_true": 1.0,
+        "detect": 0.0
+      }
+    },
+    "DS3": {
+      "naive": {
+        "coverage_true": 0.4,
+        "detect": 0.4
+      },
+      "noise_only": {
+        "coverage_true": 0.8,
+        "detect": 0.6
+      },
+      "certified": {
+        "coverage_true": 1.0,
+        "detect": 0.0
+      }
+    },
+    "DS4": {
+      "naive": {
+        "coverage_true": 0.2,
+        "detect": 0.6
+      },
+      "noise_only": {
+        "coverage_true": 0.2,
+        "detect": 0.4
+      },
+      "certified": {
+        "coverage_true": 1.0,
+        "detect": 0.0
+      }
+    },
+    "DS5": {
+      "naive": {
+        "coverage_true": 0.0,
+        "detect": 0.6
+      },
+      "noise_only": {
+        "coverage_true": 0.4,
+        "detect": 0.2
+      },
+      "certified": {
+        "coverage_true": 1.0,
+        "detect": 0.0
+      }
+    },
+    "DS6": {
+      "naive": {
+        "coverage_true": 0.6,
+        "detect": 0.8
+      },
+      "noise_only": {
+        "coverage_true": 0.8,
+        "detect": 0.6
+      },
+      "certified": {
+        "coverage_true": 1.0,
+        "detect": 0.0
+      }
+    },
+    "DS7": {
+      "naive": {
+        "coverage_true": 0.4,
+        "detect": 0.8
+      },
+      "noise_only": {
+        "coverage_true": 0.8,
+        "detect": 0.4
+      },
+      "certified": {
+        "coverage_true": 1.0,
+        "detect": 0.0
+      }
+    },
+    "DS8": {
+      "naive": {
+        "coverage_true": 0.2,
+        "detect": 1.0
+      },
+      "noise_only": {
+        "coverage_true": 0.4,
+        "detect": 1.0
+      },
+      "certified": {
+        "coverage_true": 1.0,
+        "detect": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or derived results, please cite the associated manuscript."
+title: "Identifiable is not certifiable: query-level certification of structural inferences from vibration sensor arrays"
+type: software
+version: "0.1.0"
+date-released: 2026-10-12
+repository-code: "https://github.com/Johnsonlijian/identifiable-not-certifiable-shm"
+license: LicenseRef-Proprietary
+authors:
+  - family-names: Ren
+    given-names: Lijian
+    affiliation: School of Civil Engineering, Inner Mongolia University of Technology; Inner Mongolia Key Laboratory of Green Construction and Intelligent Operation and Maintenance of Civil Engineering
+  - family-names: Tang
+    given-names: Shaobiao
+    affiliation: School of Civil Engineering, Inner Mongolia University of Technology; School of Civil Engineering, Southeast University
+  - family-names: Wang
+    given-names: Yaohong
+    affiliation: School of Civil Engineering, Inner Mongolia University of Technology; Inner Mongolia Key Laboratory of Green Construction and Intelligent Operation and Maintenance of Civil Engineering
+keywords:
+  - structural health monitoring
+  - vibration sensor arrays
+  - identifiability
+  - uncertainty quantification
+  - model discrepancy
+abstract: >-
+  Reproducible code, derived tables, and publication figures for a query-level
+  certification procedure that separates identifiability from certifiability
+  in vibration-based structural inference.

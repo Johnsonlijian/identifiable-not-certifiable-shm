@@ -1,0 +1,14 @@
+\begin{table}[h]\centering\footnotesize
+\caption{FE model: query directions in $(E_s,h_b,I_d,A_d)$ and certified half-widths with frequencies and shapes at nominal noise (prior half-width $b\|\mathbf{q}\|_1$; $b=0.1$).}\label{tab:s7}
+\begin{tabular}{llcc}\toprule query & direction & $w^{*}$ deck & $w^{*}$ full array\\ \midrule
+E\_s & $(1,0,0,0)$ & 0.0068 & 0.0058 \\
+h\_b & $(0,1,0,0)$ & 0.0168 & 0.0104 \\
+I\_d & $(0,0,1,0)$ & 0.0090 & 0.0053 \\
+A\_d & $(0,0,0,1)$ & 0.0146 & 0.0085 \\
+I\_d+A\_d & $(0,0,1,1)/\sqrt{2}$ & 0.0086 & 0.0041 \\
+I\_d-A\_d & $(0,0,1,-1)/\sqrt{2}$ & 0.0148 & 0.0091 \\
+E\_s-h\_b & $(1,-1,0,0)/\sqrt{2}$ & 0.0097 & 0.0068 \\
+global & $(1,1,1,1)/2$ & 0.0141 & 0.0087 \\
+weak1 & weakest eigenvector, deck-only Fisher & 0.0231 & 0.0142 \\
+weak2 & second weakest eigenvector & 0.0079 & 0.0037 \\
+\bottomrule\end{tabular}\end{table}
