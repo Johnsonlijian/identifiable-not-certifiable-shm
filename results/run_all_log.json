@@ -8,25 +8,25 @@
  {
   "step": "kw51_gate.py",
   "returncode": 0,
-  "seconds": 19.0,
+  "seconds": 16.2,
   "stderr_tail": ""
  },
  {
   "step": "kw51_coverage.py",
   "returncode": 0,
-  "seconds": 3.9,
+  "seconds": 3.8,
   "stderr_tail": ""
  },
  {
   "step": "kw51_prepost.py",
   "returncode": 0,
-  "seconds": 2.3,
+  "seconds": 2.2,
   "stderr_tail": ""
  },
  {
   "step": "fe_study.py",
   "returncode": 0,
-  "seconds": 17.1,
+  "seconds": 16.6,
   "stderr_tail": ""
  },
  {
@@ -38,13 +38,13 @@
  {
   "step": "hbta_gate.py id",
   "returncode": 0,
-  "seconds": 27.5,
+  "seconds": 27.3,
   "stderr_tail": ""
  },
  {
   "step": "hbta_gate.py session",
   "returncode": 0,
-  "seconds": 27.6,
+  "seconds": 27.5,
   "stderr_tail": ""
  },
  {
@@ -62,13 +62,13 @@
  {
   "step": "make_si_tables.py",
   "returncode": 0,
-  "seconds": 0.6,
+  "seconds": 0.5,
   "stderr_tail": ""
  },
  {
   "step": "fig01_framework.py",
   "returncode": 0,
-  "seconds": 4.3,
+  "seconds": 1.9,
   "stderr_tail": ""
  },
  {
@@ -92,7 +92,7 @@
  {
   "step": "fig05_kw51_hierarchy.py",
   "returncode": 0,
-  "seconds": 1.7,
+  "seconds": 1.6,
   "stderr_tail": ""
  },
  {
