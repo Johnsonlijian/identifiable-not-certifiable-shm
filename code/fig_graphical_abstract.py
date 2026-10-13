@@ -8,12 +8,12 @@ fs.setup()
 R = fs.ROUND / 'results'
 e = pd.read_csv(R / 'kw51' / 'kw51_enumeration.csv')
 d = e[(e.snr == 50.0) & (e['mask'] == 63)]
-kw = [('declared', 14), ('identifiable', int((d.state_rank == 'REPORT').sum())),
+kw = [('declared', 14), ('rank-level REPORT', int((d.state_rank == 'REPORT').sum())),
       ('certifiable in principle', int((d.rank_floor_rel <= 0.5).sum())),
       ('certified, exact model', int((d.rel_nodrift <= 0.5).sum())),
       ('certified, measured drift', int((d.rel_frozen <= 0.5).sum()))]
 hb = json.loads((R / 'hbta' / 'hbta_gate_summary_session.json').read_text())
-hb_list = [('declared', 8), ('identifiable', hb['insample_state_counts_presence']['full'].get('REPORT', 0)),
+hb_list = [('declared', 8), ('noise-level REPORT', hb['insample_state_counts_presence']['full'].get('REPORT', 0)),
            ('certified, noise only', hb['insample_certified_presence']['full']['noise_only']),
            ('certified, across excitations', hb['insample_certified_presence']['full']['certified']),
            ('certified in transfer', 0)]

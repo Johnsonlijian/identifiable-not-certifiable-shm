@@ -17,7 +17,7 @@ axB = [fig.add_axes([0.52, 0.775, 0.47, 0.17]), fig.add_axes([0.52, 0.565, 0.47,
 axC = fig.add_axes([0.08, 0.08, 0.90, 0.36])
 
 # ----------------------------------------------------------------- (a) funnel --
-levels = ['declared queries', 'identifiable\n(rank level, REPORT)', 'certifiable in principle\n(rank floor <= 0.5)',
+levels = ['declared queries', 'rank-level REPORT\n(thresholded gate)', 'certifiable in principle\n(rank floor <= 0.5)',
           'certified, exact dictionary', 'certified, monthly\ndiscrepancy']
 counts = {}
 for lay, m in (('deck', 0), ('full', 63)):
@@ -93,10 +93,10 @@ axC.set_xlim(-0.6, 6.6)
 axC.set_ylim(-1.3, 13)
 axC.set_xlabel('number of arch channels added to the six deck channels')
 axC.set_ylabel('queries per layout')
-axC.legend(handles=[Line2D([], [], ls='', marker='s', color=fs.STATE['REPORT'], label='REPORT (identifiable)'),
+axC.legend(handles=[Line2D([], [], ls='', marker='s', color=fs.STATE['REPORT'], label='REPORT (rank-level gate)'),
                     Line2D([], [], ls='', marker='o', color=fs.BLUE, label='certified, exact dictionary'),
                     Line2D([], [], color=fs.INK, lw=1.0, label='mean per budget')],
            loc='upper left', fontsize=6.0, ncol=3)
 fs.hgrid(axC)
-fs.panel(axC, 'c', r'All 64 layouts ($b/\sigma=50$): sensors change what is identifiable much more than what is certified')
+fs.panel(axC, 'c', r'All 64 layouts ($b/\sigma=50$): sensors expand reportability more than certification')
 fs.save(fig, 'fig05_kw51_hierarchy')

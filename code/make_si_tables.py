@@ -161,7 +161,7 @@ for v, vn in (('freq', 'frequencies'), ('shape', 'mode shapes'), ('both', 'both'
                         f'{r.mean_cov:.3f} & {r.min_cov:.3f} & {r.frac_below_095:.2f} & {r.median_rel_width:.2f} \\\\')
 write('tab_s9_nonlinear', '\n'.join([
     r'\begin{longtable}{lllccccc}',
-    r'\caption{FE model, nonlinear truth: coverage of the four interval rules on the 16 single-axis solutions (in-sample for the single-axis envelope) and on the 13 box corners (out of sample), with 4000 noise draws per solution; columns give the number of layout--query--solution rows, mean and minimum coverage, fraction of rows below 0.95, and median half-width relative to the prior.}\label{tab:s9}\\',
+    r'\caption{FE model, nonlinear validation: coverage of the four interval rules on the 16 single-axis solutions (in-sample for the single-axis envelope) and on the 13 box corners (out of sample), with 4000 noise draws per solution; columns give the number of layout--query--solution rows, mean and minimum coverage, fraction of rows below 0.95, and median half-width relative to the prior.}\label{tab:s9}\\',
     r'\toprule observables & solutions & rule & rows & mean & min & $<0.95$ & $w/w_0$\\ \midrule\endfirsthead',
     r'\toprule observables & solutions & rule & rows & mean & min & $<0.95$ & $w/w_0$\\ \midrule\endhead',
     *rows, r'\bottomrule', r'\end{longtable}']))

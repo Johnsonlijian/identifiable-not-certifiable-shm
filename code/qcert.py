@@ -15,10 +15,11 @@ Everything below works in whitened units: S_w = S / sd, E_w = E / sd.
 Three levels of evidence are computed for every query:
 
 1. rank level      - exact row-space membership of q (noise-free, model-exact);
-2. noise level     - membership of q in the Fisher eigenspace whose eigenvalues
-                     exceed the break-even floor lambda* = (z / b)^2, i.e. the
-                     directions that the measurement constrains better than the
-                     prior (null participation p_null, reporting state);
+2. noise level     - null participation and reporting state from the Fisher
+                     eigenspace retained at lambda >= lambda* = (z / b)^2.
+                     The break-even value is exact for an orthogonal design
+                     and a coordinate query; for general layouts it is an
+                     operational screening threshold;
 3. certified level - the bias-aware minimax half-width of the best linear
                      estimator, valid for every theta in the box and every
                      admissible discrepancy (noise + aliasing + drift budget).
@@ -42,9 +43,11 @@ TAU_REPORT, TAU_REFUSE = 0.2, 0.6
 def breakeven_floor(box: float, z: float = Z95) -> float:
     """Eigenvalue floor at which the measurement and the prior bound tie.
 
-    A unit Fisher eigendirection with eigenvalue lam has a noise-only 95 %
-    half-width z / sqrt(lam); the prior half-width is b. The measurement is
-    worth using along that direction iff lam > (z / b)^2 (Proposition 3).
+    For an orthogonal design and a coordinate query, the noise-only 95 %
+    half-width is z / sqrt(lam) and the prior half-width is b. Measurement
+    improves on the prior when lam > (z / b)^2; equality is a tie and is
+    retained by convention. For general layouts this is a screening value,
+    not a query-specific optimum (break-even proposition).
     """
     return (z / box) ** 2
 
@@ -196,7 +199,7 @@ class CertificateSolver:
         self.n, self.p, self.z, self.solver = n, p, z, solver
         self.a = cp.Variable(n)
         # the prior half-width b is folded into the parameters to keep the
-        # program disciplined-parametrized (DPP): b S_w, b q and b e
+        # program disciplined parametrised (DPP): b S_w, b q and b e
         self.Sb = cp.Parameter((n, p))
         self.qb = cp.Parameter(p)
         self.eb = cp.Parameter(n, nonneg=True)
@@ -213,7 +216,7 @@ class CertificateSolver:
         w0 = float(box * np.abs(q).sum())
         import warnings
         with warnings.catch_warnings():
-            # any feasible a yields a valid certificate (Proposition 1); solver
+            # any feasible a yields a valid certificate (validity proposition); solver
             # inaccuracy can only make the reported width conservative
             warnings.simplefilter('ignore')
             try:
@@ -245,7 +248,7 @@ def certificate(S_w, q, box, e_w=None, z: float = Z95) -> Certificate:
 
 
 def fixed_estimator_width(S_w, a, q, box, e_w=None, z: float = Z95) -> dict:
-    """Bias-aware half-width of a given whitened estimator a (Proposition 1)."""
+    """Bias-aware half-width of a given whitened estimator a (validity proposition)."""
     S_w = np.asarray(S_w, float)
     a = np.asarray(a, float)
     q = np.asarray(q, float)
@@ -261,7 +264,7 @@ def rank_floor(S_w, q, box) -> float:
 
     It is the smallest half-width any linear estimator can certify with the
     layout, however much the noise is averaged down and however small the
-    discrepancy becomes (Proposition 2).
+    discrepancy becomes (rank-floor proposition).
     """
     cp = _cvxpy()
     S_w = np.atleast_2d(np.asarray(S_w, float))

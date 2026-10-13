@@ -11,7 +11,7 @@ Part A - linear-Gaussian regime (the model is exact):
     Carlo coverage of the naive (projection, noise-only) interval and of the
     certificate, for theta uniform in the box and at the worst-case vertex.
 
-Part B - nonlinear truth (the model is wrong):
+Part B - nonlinear validation (the model is wrong):
     45 full finite-element solutions at known parameter points (single-axis
     injections of +-0.02 and +-0.1 and 13 box corners) replace the linear
     prediction. The additive linearisation residual is bounded by an envelope

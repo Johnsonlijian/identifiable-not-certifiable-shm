@@ -1,4 +1,4 @@
-"""Fig. 4 - FE controlled truth: model-exact coverage, linearisation residuals, nonlinear truth."""
+"""Fig. 4 - FE controlled validation: model-exact coverage, linearisation residuals, nonlinear validation."""
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -68,7 +68,7 @@ axB.text(14.4, 2e-2, 'numbers: distinct FE modes\nmatched across solutions', ha=
 fs.hgrid(axB)
 fs.panel(axB, 'b', 'Linearisation error, 29 FE solutions')
 
-# ------------------------------------------- (c) nonlinear truth at corners ---
+# ------------------------------------------- (c) nonlinear validation at corners ---
 rules = [('naive', 'naive', fs.ORANGE, 'o'), ('blind', 'model-error blind', fs.AQUA, 's'),
          ('axis', 'single-axis envelope', fs.YELLOW, 'D'), ('loo', 'combined-design envelope', fs.BLUE, '^')]
 for ax, (v, vt) in zip(axC, (('freq', 'frequencies only'), ('shape', 'mode shapes only'),
@@ -92,6 +92,6 @@ for ax, (v, vt) in zip(axC, (('freq', 'frequencies only'), ('shape', 'mode shape
 axC[0].set_ylabel('coverage at the 13 box corners')
 axC[0].text(-0.75, -0.115, 'median\nw/w0', ha='right', va='top', fontsize=5.4, color=fs.MUTED,
             transform=axC[0].transData)
-fs.panel(axC[0], 'c', 'Nonlinear FE truth, out of sample: interval rule (black bar = mean) x observation set',
+fs.panel(axC[0], 'c', 'Nonlinear FE validation, out of sample: interval rule (black bar = mean) x observation set',
          y=1.12)
 fs.save(fig, 'fig04_fe')

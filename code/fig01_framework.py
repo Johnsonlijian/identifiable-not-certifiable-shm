@@ -1,4 +1,4 @@
-﻿"""Fig. 1 - framework: protocol, break-even floor, error budget of three field queries."""
+"""Fig. 1 - framework: protocol, break-even criterion, error budget of three field queries."""
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -40,10 +40,10 @@ box(axA, 0, 50, 28, 42, 'Declared inputs',
      r'prior box $|\theta_i|\leq b$', r'discrepancy bound $\rho$', r'query $\mathbf{q}$ (scalar $\mathbf{q}^{\top}\theta$)'])
 box(axA, 34, 74, 66, 18, 'Level 1  rank: is q estimable at all?',
     [r'$\mathbf{q}\in\mathrm{row}(\mathbf{S}_L)$;  rank floor $b\,d_1(\mathbf{q},\mathrm{row}\,\mathbf{S}_L)$'])
-box(axA, 34, 51.5, 66, 18.5, 'Level 2  noise: does the array beat the prior?',
-    [r'Fisher eigen-split at $\lambda^{*}=(z/b)^2$;  $p_{\mathrm{null}}(\mathbf{q})\rightarrow$ state'])
+box(axA, 34, 51.5, 66, 18.5, 'Level 2  noise: which directions pass screening?',
+    [r'Fisher split at $\lambda^{*}=(z/b)^2$;  $p_{\mathrm{null}}(\mathbf{q})\rightarrow$ state'])
 box(axA, 34, 25, 66, 22.5, 'Level 3  certified: how precisely, guaranteed?',
-    [r'$w^{*}=\min_{\mathbf{a}}\ z\|\mathbf{a}\|_2+b\|\tilde{\mathbf{S}}^{\top}\mathbf{a}-\mathbf{q}\|_1+\rho^{\top}|\mathbf{a}|$',
+    [r'$w^{*}=\min_{\mathbf{a}}\ z\|\mathbf{a}\|_2+b\|\tilde{\mathbf{S}}^{\top}\mathbf{a}-\mathbf{q}\|_1+\tilde{\rho}^{\top}|\mathbf{a}|$',
      'budget = noise + aliasing + discrepancy'])
 arrow(axA, 28, 72, 34, 83)
 arrow(axA, 67, 74, 67, 70)
@@ -51,17 +51,17 @@ arrow(axA, 67, 51.5, 67, 47.5)
 # outputs
 ow, oy, oh = 31.5, 0.5, 20.5
 outs = [('REPORT', ['estimate $\\pm\\,w^{*}$', 'state $p_{\\mathrm{null}}\\leq\\tau_1$']),
-        ('BOUND', ['projection $\\pm\\,w_P$;', 'remainder within prior']),
+        ('BOUND', ['estimate $\\pm\\,w^{*}$', '$\\tau_1<p_{\\mathrm{null}}\\leq\\tau_2$']),
         ('REFUSE', ['prior interval', '+ limiting term'])]
 for i, (st, ln) in enumerate(outs):
     x = 1.5 + i * (ow + 2)
     box(axA, x, oy, ow, oh, st, ln, fc='white', ec=fs.STATE[st], tc=fs.INK, lw=1.4, step=5.6, top=9.0)
 for i in range(3):
     arrow(axA, 67, 25, 1.5 + i * (ow + 2) + ow / 2, oy + oh + 0.3)
-axA.text(14, 47.5, 'never publish a scalar\nwithout its certificate', ha='center', va='top',
+axA.text(14, 47.5, 'publish each scalar\nwith its certificate', ha='center', va='top',
          fontsize=6.2, color=fs.MUTED, style='italic')
 
-# ------------------------------------------------------- (b) break-even floor --
+# ------------------------------------------------------- (b) break-even criterion --
 b = 0.1
 lam = np.logspace(0, 6, 400)
 noise_only = Z / (b * np.sqrt(lam))
@@ -82,7 +82,7 @@ axB.set_ylim(0.01, 40)
 axB.set_xlabel(r'Fisher eigenvalue $\lambda$ along a basis query (b = 0.1)')
 axB.set_ylabel('half-width / prior b')
 axB.legend(loc='upper right', fontsize=6.2)
-fs.panel(axB, 'b', 'Break-even floor (Prop. 4)')
+fs.panel(axB, 'b', 'Break-even criterion')
 
 # ---------------------------------------------- (c) error budget, KW51 queries --
 cases = [(3, 'nodrift'), (3, 'frozen'), (12, 'nodrift'), (12, 'frozen'), (9, 'nodrift'), (9, 'frozen')]

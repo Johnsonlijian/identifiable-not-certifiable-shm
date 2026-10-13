@@ -29,7 +29,7 @@ for rule, col, mk, off in styles:
     d = ref[ref.rule == rule].sort_values('k')
     axA.plot(d.k + off, d.report, color=col, marker=mk, ms=4.6 if mk != '*' else 6.5, lw=0.9,
              label=rule, zorder=3)
-axA.text(6.3, 1.35, 'E-optimality undefined: every layout\nhas $\\lambda_{\\min}(F+\\eta I)=\\eta$', ha='right',
+axA.text(6.3, 1.35, 'E-optimality constant: every layout\nhas $\\lambda_{\\min}(F+\\eta I)=\\eta$', ha='right',
          va='bottom', fontsize=5.6, color=fs.MUTED)
 axA.set_xlabel('arch channels added to the deck array (budget k)')
 axA.set_ylabel('REPORT queries of the chosen layout')
@@ -67,7 +67,7 @@ axC.bar(x + 0.18, c.loc[['D', 'A'], 'rho_certified'], width=0.34, color=fs.BLUE,
 for xx, v in zip(list(x - 0.18) + list(x + 0.18),
                  list(c.loc[['D', 'A'], 'rho_report']) + list(c.loc[['D', 'A'], 'rho_certified'])):
     axC.text(xx, v + 0.02, f'{v:.2f}', ha='center', fontsize=5.4, color=fs.INK2)
-axC.text(2, 0.05, 'E:\nundefined', ha='center', va='bottom', fontsize=5.6, color=fs.MUTED)
+axC.text(2, 0.05, 'E:\nconstant', ha='center', va='bottom', fontsize=5.6, color=fs.MUTED)
 axC.axhline(0, color=fs.INK2, lw=0.5)
 axC.set_xticks([0, 1, 2])
 axC.set_xlim(-0.6, 2.6)

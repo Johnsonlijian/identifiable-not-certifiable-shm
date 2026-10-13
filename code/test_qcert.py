@@ -16,7 +16,7 @@ def check(name, cond, info=''):
         FAILS.append(name)
 
 
-# 1. orthogonal design: w*(e_i) = min(b, z / sqrt(lambda_i))   (Proposition 3)
+# 1. orthogonal design: w*(e_i) = min(b, z / sqrt(lambda_i))   (break-even proposition)
 b = 0.1
 lam = np.array([10.0, 200.0, 384.0, 400.0, 5000.0])
 S_w = np.diag(np.sqrt(lam))
@@ -38,7 +38,7 @@ aP = g.proj_weights(S, q)
 check('projection estimator identity', np.allclose(S.T @ aP, g.P @ q, atol=1e-8)
       and abs(np.linalg.norm(aP) - g.proj_sd(q)) < 1e-8)
 
-# 3. sandwich: rank floor <= w* <= projection-estimator width   (Proposition 4)
+# 3. sandwich: rank floor <= w* <= projection-estimator width   (Fisher-eigenspace-sandwich proposition)
 ok = True
 for _ in range(20):
     n, p = RNG.integers(3, 9), RNG.integers(3, 9)
@@ -52,7 +52,7 @@ for _ in range(20):
     ok &= (lo <= c.width + 1e-7) and (c.width <= min(hi, b * np.abs(q).sum()) + 1e-7)
 check('sandwich bounds', ok)
 
-# 4. monotonicity in layout, envelope and noise   (Proposition 5)
+# 4. monotonicity in layout, envelope and noise   (monotonicity proposition)
 S = RNG.standard_normal((10, 6)) * 30
 E = np.abs(RNG.standard_normal((10, 6))) * 0.3
 q = RNG.standard_normal(6)
@@ -73,7 +73,7 @@ check('rank floor = noise-free limit', abs(lim - Q.rank_floor(S, q, b)) < 1e-4,
 check('rank floor >= b ||P_null q||_2',
       Q.rank_floor(S, q, b) >= b * np.linalg.norm(Q.geometry(S, b).Pnull @ q) - 1e-9)
 
-# 6. coverage of a fixed certified estimator under adversarial theta and Delta (Prop. 1)
+# 6. coverage of a fixed certified estimator under adversarial theta and Delta (validity proposition)
 n, p = 8, 4
 S = RNG.standard_normal((n, p)) * 30
 E = np.abs(RNG.standard_normal((n, p))) * 2.0
