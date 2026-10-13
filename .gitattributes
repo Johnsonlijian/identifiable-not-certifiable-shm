@@ -1,0 +1,2 @@
+# Preserve released file bytes so SHA256SUMS.txt works on all platforms.
+* -text
