@@ -3,7 +3,7 @@ message: "If you use this code or derived results, please cite the associated ma
 title: "Identifiable is not certifiable: query-level certification of structural inferences from vibration sensor arrays"
 type: software
 version: "0.1.0"
-date-released: 2026-10-12
+date-released: 2026-10-14
 repository-code: "https://github.com/Johnsonlijian/identifiable-not-certifiable-shm"
 license: LicenseRef-Proprietary
 authors:
