@@ -25,7 +25,7 @@ Three levels of evidence are computed for every query:
                      admissible discrepancy (noise + aliasing + drift budget).
 
 The reporting state (REPORT / BOUND / REFUSE) is assigned at the noise level;
-the certificate states how precisely that report can be guaranteed.
+the certificate states the precision of that report.
 """
 from __future__ import annotations
 

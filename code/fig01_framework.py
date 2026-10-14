@@ -42,7 +42,7 @@ box(axA, 34, 74, 66, 18, 'Level 1  rank: is q estimable at all?',
     [r'$\mathbf{q}\in\mathrm{row}(\mathbf{S}_L)$;  rank floor $b\,d_1(\mathbf{q},\mathrm{row}\,\mathbf{S}_L)$'])
 box(axA, 34, 51.5, 66, 18.5, 'Level 2  noise: which directions pass screening?',
     [r'Fisher split at $\lambda^{*}=(z/b)^2$;  $p_{\mathrm{null}}(\mathbf{q})\rightarrow$ state'])
-box(axA, 34, 25, 66, 22.5, 'Level 3  certified: how precisely, guaranteed?',
+box(axA, 34, 25, 66, 22.5, 'Level 3  certified: how precise is the interval?',
     [r'$w^{*}=\min_{\mathbf{a}}\ z\|\mathbf{a}\|_2+b\|\tilde{\mathbf{S}}^{\top}\mathbf{a}-\mathbf{q}\|_1+\tilde{\rho}^{\top}|\mathbf{a}|$',
      'budget = noise + aliasing + discrepancy'])
 arrow(axA, 28, 72, 34, 83)
@@ -72,7 +72,7 @@ ls = (Z / b) ** 2
 axB.axvline(ls, color=fs.INK2, lw=0.6)
 axB.text(ls * 1.25, 0.012, r'$\lambda^{*}=(z/b)^2$', fontsize=6.4, color=fs.INK2, va='bottom')
 axB.plot([1], [Z / b], marker='o', ms=3.5, color=fs.ORANGE)
-axB.annotate('unit floor ($\\lambda=1$):\nhalf-width 19.6 b', xy=(1, Z / b), xytext=(1.4, 0.18),
+axB.annotate('unit eigenvalue floor ($\\lambda=1$):\nhalf-width 19.6 b', xy=(1, Z / b), xytext=(1.4, 0.18),
              fontsize=6.2, color=fs.ORANGE, arrowprops=dict(arrowstyle='-', lw=0.6, color=fs.ORANGE))
 axB.fill_betweenx([0.003, 40], 1, ls, color='#f4f2ee', zorder=0)
 axB.text(20, 0.03, 'prior wins', fontsize=6.2, color=fs.MUTED, ha='center')

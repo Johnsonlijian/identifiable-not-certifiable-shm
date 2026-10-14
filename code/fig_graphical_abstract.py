@@ -20,8 +20,7 @@ hb_list = [('declared', 8), ('noise-level REPORT', hb['insample_state_counts_pre
 
 fig = plt.figure(figsize=(13.28 / 2.54 * 1.4, 5.31 / 2.54 * 1.4))
 fig.text(0.02, 0.93, 'Identifiable is not certifiable', fontsize=13, fontweight='bold', color=fs.INK)
-fig.text(0.02, 0.84, 'Query-level certification: REPORT / BOUND / REFUSE with an interval guaranteed over the prior '
-         'range and a declared model-discrepancy bound', fontsize=7.5, color=fs.INK2)
+fig.text(0.02, 0.84, 'Query-level certification: REPORT / BOUND / REFUSE; 95% coverage over a declared prior box and discrepancy bound', fontsize=7.5, color=fs.INK2)
 for k, (title, items, col, tot) in enumerate((
         ('KW51 bridge, full array: 14 modal-coordinate queries', kw, fs.BLUE, 14),
         ('Hell Bridge Test Arena, full array: 8 damage states', hb_list, fs.AQUA, 8))):
